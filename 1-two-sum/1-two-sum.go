@@ -6,7 +6,7 @@ import (
 
 func main() {
 	var testIntArr = []int{2, 7, 11, 17}
-	fmt.Println(twoSum(testIntArr, 9))   // [0,2]
+	fmt.Println(twoSum(testIntArr, 9))   // [0,1]
 	fmt.Println(twoSum2(testIntArr, 24)) // [1,3]
 }
 
@@ -37,7 +37,8 @@ func twoSum2(nArr []int, t int) []int {
 	lens := len(nArr)
 	for i := 0; i < lens; i++ {
 		for j := 0; j < lens; j++ {
-			if i != j && nArr[i]+nArr[j] == t {
+			fmt.Println(i, j)
+			if i < j && nArr[i]+nArr[j] == t {
 				ret = append(ret, i)
 				ret = append(ret, j)
 				return ret
