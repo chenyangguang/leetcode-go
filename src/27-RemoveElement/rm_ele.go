@@ -1,9 +1,5 @@
 package re
 
-import (
-	"fmt"
-)
-
 // RemoveEle Given an array nums and a value val, remove all instances
 // of that value in-place and return the new length.
 // Do not allocate extra space for another array,
@@ -19,6 +15,5 @@ func RemoveEle(nums []int, t int) int {
 		}
 		newNums = append(newNums, v)
 	}
-	fmt.Println(newNums)
 	return len(newNums)
 }
