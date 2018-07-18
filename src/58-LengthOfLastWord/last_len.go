@@ -1,7 +1,6 @@
 package ll
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -14,6 +13,5 @@ import (
 func LengthOfLastWord(s string) int {
 	arr := strings.Split(s, " ")
 
-	fmt.Println(arr)
 	return len(arr[len(arr)-1])
 }
