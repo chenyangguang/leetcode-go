@@ -7,4 +7,4 @@
 - [704.binary-search](./704-binary-search/704-binary-search.go)
 - [14.longest-common-prefix](./14-longest-common-prefix/14_longest_common_prefix.go)
 
-- [35.search-insert-position](./src/35-SearchInsertPotion/search_insert_position.go)
+- [35.search-insert-position](./src/35-SearchInsertPosition/search_insert_position.go)
