@@ -13,6 +13,7 @@
 - [198.house-robber](./src/198-HouseRobber/house_robber.go)
 - [231.power-of-two](./src/231-PowerOfTwo/power_of2.go)
 - [290.word-pattern](./src/290-WordPattern/word_pattern.go)
+- [349.intersection-of-two-array](./src/349-IntersectionOf2Array/inter_of2.go)
 - [367.valid-perfect-square](./src/367-ValidPerfectSquare/367-valid-perfect-square.go)
 - [704.binary-search](./src/704-BinarySearch/704-binary-search.go)
 
